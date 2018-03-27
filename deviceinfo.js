@@ -9,7 +9,7 @@ if (!RNDeviceInfo) {
   RNDeviceInfo = Platform.OS === 'web' ? require('./web') : require('./default');
 }
 
-const devicesWithNotch = [
+export default {
   {
     brand: 'Apple',
     model: 'iPhone X',
